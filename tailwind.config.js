@@ -10,6 +10,9 @@ export default {
         secondary: "#CEBB5B",
         foreground: "#EDEDD5",
       },
+      screens: {
+        pc: "1440px"
+      }
     },
   },
   plugins: [],
