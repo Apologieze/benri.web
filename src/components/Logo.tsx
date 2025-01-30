@@ -11,7 +11,7 @@ type Size = {
 }
 
 const Logo: FC<Props> = ({ link = false, size = "sm" }) => link
-  ? <Link to="/"><Content size={size} /></Link>
+  ? <Link to="/" className="z-[2]"><Content size={size} /></Link>
   : <><Content size={size} /></>
 
 const Content: FC<Size> = ({ size }) => {
