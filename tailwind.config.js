@@ -11,12 +11,15 @@ export default {
         foreground: "#EDEDD5",
       },
       screens: {
-        pc: "1440px"
+        pc: "1440px",
       },
       boxShadow: {
-        "girl": "inset 0 0 40px 60px #100F14",
-        "girl-lg": "inset 0 0 30px 79px #100F14"
-      }
+        girl: "inset 0 0 40px 60px #100F14",
+        "girl-lg": "inset 0 0 30px 79px #100F14",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sherif"],
+      },
     },
   },
   plugins: [],
