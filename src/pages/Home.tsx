@@ -6,8 +6,8 @@ import { Download } from "@components/icons"
 
 const Home = () => {
   return <main className="relative z-[1] mt-14">
-    <section className="mx-auto flex min-h-fit h-[80vh] max-w-screen-pc flex-col-reverse items-center justify-center md:flex-row md:px-5">
-      <div className="px-6 sm:px-24 md:max-w-md md:px-0 lg:max-w-[580px]">
+    <section className="mx-auto flex min-h-fit max-w-screen-pc flex-col-reverse items-center justify-center md:flex-row md:px-5">
+      <div className="px-3 sm:px-24 md:max-w-md md:px-0 lg:max-w-[580px]">
         <Logo size="lg" />
         <p className="mt-2 text-lg sm:text-xl lg:text-2xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -24,8 +24,10 @@ const Home = () => {
         <img src={girlUrl} className="" alt="" />
       </div>
     </section>
-    <section className="from-primary to-secondary bg-gradient-to-bl overflow-hidden mx-3 rounded-tl-lg rounded-tr-lg mt-10">
-      <img src={appUrl} alt="" className="w-[90%] mx-auto rounded-tl-sm rounded-tr-sm mt-3" />
+    <section className="mx-auto mt-16 md:max-w-[920px] lg:max-w-screen-pc-block">
+      <div className="mx-3 max-h-[660px] overflow-hidden rounded-t-lg bg-gradient-to-bl from-primary to-secondary sm:mx-7 md:mx-5">
+        <img src={appUrl} alt="" className="mx-auto mt-3 w-[90%] rounded-t-sm sm:mt-6 md:mt-10 lg:mt-12" />
+      </div>
     </section>
   </main>
 }

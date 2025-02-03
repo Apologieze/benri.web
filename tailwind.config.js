@@ -12,6 +12,7 @@ export default {
       },
       screens: {
         pc: "1440px",
+        "pc-block": "1159px"
       },
       boxShadow: {
         girl: "inset 0 0 40px 60px #100F14",

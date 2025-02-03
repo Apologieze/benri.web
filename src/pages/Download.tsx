@@ -1,5 +1,5 @@
 const Download = () => {
-  return <main>
+  return <main className="flex-1">
     Download
   </main>
 }
