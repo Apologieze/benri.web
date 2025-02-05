@@ -6,8 +6,8 @@ import { Download } from "@components/icons"
 import Feature from "@components/Feature"
 
 const Home = () => {
-  return <main className="relative z-[1] mt-14">
-    <section className="mx-auto flex min-h-fit max-w-screen-pc flex-col-reverse items-center justify-center md:flex-row md:px-5">
+  return <main className="relative z-[1] mb-20 mt-14">
+    <section className="mx-auto flex min-h-fit max-w-screen-pc flex-col-reverse items-center justify-center sm:h-[80vh] sm:min-h-[660px] md:flex-row md:px-5">
       <div className="px-3 sm:px-24 md:max-w-md md:px-0 lg:max-w-[580px]">
         <Logo size="lg" />
         <p className="mt-2 text-lg sm:text-xl lg:text-2xl">
@@ -30,15 +30,26 @@ const Home = () => {
         <img src={appUrl} alt="" className="mx-auto -mb-4 mt-3 w-[90%] rounded-t-sm sm:mt-6 md:mt-10 lg:mt-12" />
       </div>
     </section>
-    <section className="mx-auto mt-10 max-w-screen-pc">
+    <section className="mx-auto mt-28 max-w-screen-pc">
       <Feature
         imgUrl={appUrl}
         align="left"
+        heading="01 Feature"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      />
+      <Feature
+        imgUrl={appUrl}
+        align="right"
+        className="mt-10"
+        heading="02 Feature"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       />
       <Feature
         imgUrl={appUrl}
         align="left"
         className="mt-10"
+        heading="03 Feature"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       />
     </section>
   </main>
