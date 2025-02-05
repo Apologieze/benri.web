@@ -3,7 +3,7 @@ import Logo from "./Logo"
 import { Link } from "react-router-dom"
 
 const Footer = () => {
-  return <footer className="w-full relative z-[2] mx-auto mt-10 flex max-w-screen-pc flex-col justify-between px-[25px] py-1 sm:flex-row sm:items-center">
+  return <footer className="relative z-[2] mx-auto mb-2 mt-10 flex w-full max-w-screen-pc flex-col justify-between px-[25px] py-1 sm:flex-row sm:items-center">
     <div className="flex w-full justify-between sm:hidden">
       <Logo link size="sm" />
       <Github
@@ -22,11 +22,11 @@ const Footer = () => {
       <div className="hidden h-5 w-px bg-primary sm:block" />
       <p className="text-sm text-primary sm:text-base">
         by
-        <Link to="https://github.com/Apologieze" className="mx-1 text-secondary">
+        <Link target="_blank" to="https://github.com/Apologieze" className="mx-1 text-secondary">
           @apologieze
         </Link>
         and
-        <Link to="https://github.com/vshakitskiy" className="mx-1 text-secondary">
+        <Link target="_blank" to="https://github.com/vshakitskiy" className="mx-1 text-secondary">
           @wiskiy
         </Link>
       </p>

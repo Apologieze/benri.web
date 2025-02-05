@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import girlUrl from "@assets/girlie.jpg"
 import appUrl from "@assets/app.jpg"
 import { Download } from "@components/icons"
+import Feature from "@components/Feature"
 
 const Home = () => {
   return <main className="relative z-[1] mt-14">
@@ -26,8 +27,19 @@ const Home = () => {
     </section>
     <section className="mx-auto mt-16 md:max-w-[920px] lg:max-w-screen-pc-block">
       <div className="mx-3 max-h-[660px] overflow-hidden rounded-t-lg bg-gradient-to-bl from-primary to-secondary sm:mx-7 md:mx-5">
-        <img src={appUrl} alt="" className="mx-auto mt-3 w-[90%] rounded-t-sm sm:mt-6 md:mt-10 lg:mt-12" />
+        <img src={appUrl} alt="" className="mx-auto -mb-4 mt-3 w-[90%] rounded-t-sm sm:mt-6 md:mt-10 lg:mt-12" />
       </div>
+    </section>
+    <section className="mx-auto mt-10 max-w-screen-pc">
+      <Feature
+        imgUrl={appUrl}
+        align="left"
+      />
+      <Feature
+        imgUrl={appUrl}
+        align="left"
+        className="mt-10"
+      />
     </section>
   </main>
 }
