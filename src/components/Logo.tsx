@@ -4,14 +4,15 @@ import { Link } from "react-router-dom"
 type Props = {
   link?: boolean
   size?: "sm" | "lg"
+  className?: string
 }
 
 type Size = {
   size: "sm" | "lg"
 }
 
-const Logo: FC<Props> = ({ link = false, size = "sm" }) => link
-  ? <Link to="/" className="z-[2]"><Content size={size} /></Link>
+const Logo: FC<Props> = ({ link = false, size = "sm", className = "" }) => link
+  ? <Link to="/" className={`z-[2] ${className}`}><Content size={size} /></Link>
   : <><Content size={size} /></>
 
 const Content: FC<Size> = ({ size }) => {
