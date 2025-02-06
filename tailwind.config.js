@@ -12,11 +12,12 @@ export default {
       },
       screens: {
         pc: "1440px",
-        "pc-block": "1159px"
+        "pc-block": "1159px",
+        xs: "440px"
       },
       boxShadow: {
         girl: "inset 0 0 40px 60px #100F14",
-        "girl-lg": "inset 0 0 30px 79px #100F14",
+        "girl-lg": "inset 0 0 30px 79px #100F14"
       },
       fontFamily: {
         poppins: ["Poppins", "sherif"],

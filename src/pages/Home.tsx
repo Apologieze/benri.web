@@ -13,7 +13,7 @@ const Home = () => {
         <p className="mt-2 text-lg sm:text-xl lg:text-2xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <Link to="/download">
+        <Link to="/download" className="block w-fit">
           <button className="mt-5 flex gap-1 rounded-md bg-secondary px-4 py-2">
             <p>Download</p>
             <Download />
@@ -21,7 +21,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="relative z-[-1] after:absolute after:inset-0 after:shadow-girl md:max-w-sm lg:max-w-max lg:after:shadow-girl-lg">
-        {/* <div className="absolute left-1/2 top-1/2 z-[1] h-52 w-full max-w-52 -translate-x-1/2 -translate-y-1/2 bg-secondary blur-[220px]" /> */}
+        <div className="absolute left-1/2 top-1/2 z-[1] -translate-x-1/2 -translate-y-1/2 sm:shadow-[0_0_500px_120px_#CEBB5B] lg:shadow-[0_0_600px_120px_#CEBB5B]" />
         <img src={girlUrl} className="" alt="" />
       </div>
     </section>
@@ -30,7 +30,7 @@ const Home = () => {
         <img src={appUrl} alt="" className="mx-auto -mb-4 mt-3 w-[90%] rounded-t-sm sm:mt-6 md:mt-10 lg:mt-12" />
       </div>
     </section>
-    <section className="mx-auto mt-28 max-w-screen-pc">
+    <section className="mx-auto mt-28 flex max-w-screen-pc flex-col">
       <Feature
         imgUrl={appUrl}
         align="left"
