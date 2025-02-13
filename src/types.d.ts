@@ -1,0 +1,1 @@
+export type System = "mac" | "linux" | "windows"
