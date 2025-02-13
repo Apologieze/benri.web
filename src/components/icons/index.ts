@@ -1,2 +1,5 @@
 export { default as Github } from "./Github"
 export { default as Download } from "./Download"
+export { default as Linux } from "./Linux"
+export { default as Windows } from "./Windows"
+export { default as Apple } from "./Apple"

@@ -8,7 +8,7 @@ const Footer = () => {
       <Logo link size="sm" />
       <Github
         className="size-5 fill-primary"
-        url="https://github.com/Apologieze/AnimeGUI"
+        url="https://github.com/Apologieze/Benri"
       />
     </div>
 
@@ -17,7 +17,7 @@ const Footer = () => {
     <div className="mt-1 flex size-full w-fit sm:mt-0 sm:items-center sm:gap-2">
       <Github
         className="hidden size-5 fill-primary sm:block"
-        url="https://github.com/Apologieze/AnimeGUI"
+        url="https://github.com/Apologieze/Benri"
       />
       <div className="hidden h-5 w-px bg-primary sm:block" />
       <p className="text-sm text-primary sm:text-base">
