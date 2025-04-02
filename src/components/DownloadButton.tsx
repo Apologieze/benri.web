@@ -3,9 +3,9 @@ import { Apple, Windows, Linux } from "./icons"
 import { System, SystemIconProps } from "@/types"
 
 const SYSTEMS: Record<System, FC<SystemIconProps>> = {
-  linux: Linux,
-  windows: Windows,
-  mac: Apple
+  Linux: Linux,
+  Windows: Windows,
+  Mac: Apple
 }
 
 const DownloadButton: FC<{
