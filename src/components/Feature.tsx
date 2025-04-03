@@ -1,11 +1,11 @@
 /* eslint-disable tailwindcss/no-custom-classname */
-import { FC } from "react"
+import React, { FC } from "react"
 
 type Props = {
   imgUrl: string
   align: "left" | "right"
   heading: string
-  text: string
+  text: React.ReactNode
   className?: string
 }
 
@@ -20,7 +20,7 @@ const Feature: FC<Props> = ({ imgUrl, align, className = "", heading, text }) =>
         <img className="rounded-md" src={imgUrl} alt="" />
       </div>
       <div className={`mx-3 mt-3 max-w-md md:max-w-sm lg:mx-6 xl:mx-20 xl:max-w-md ${align === "right" ? "text-right sm:text-left" : null}`}>
-        <h2 className={`text-xl sm:text-2xl xl:text-4xl ${align === "left" ? "text-secondary" : "text-primary"}`}>
+        <h2 className={`mb-1 text-xl sm:text-2xl xl:text-4xl ${align === "left" ? "text-secondary" : "text-primary"}`}>
           {heading}
         </h2>
         <p className="xl:text-xl">
