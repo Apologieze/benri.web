@@ -2,6 +2,7 @@ import Logo from "@components/Logo"
 import { Link } from "react-router-dom"
 import girlUrl from "@assets/girlie2.jpg"
 import appUrl from "@assets/app2.jpg"
+import speedBenri from "@assets/speedBenri.png"
 import { Download } from "@components/icons"
 import Feature from "@components/Feature"
 import {ScrollTopArrowDown} from "@components/icons/ArrowDown.tsx"
@@ -49,11 +50,11 @@ const Home = () => {
         text={<div>Seamlessly integrates with AniList.<br></br>✅ Sync Your Watchlist, 📺 Track Episodes,<br></br>🔎 Search new anime and more.</div>}
       />
       <Feature
-        imgUrl={appUrl}
+        imgUrl={speedBenri}
         align="right"
         className="mt-10"
-        heading="Very Performant"
-        text={<div>Benri was designed to be fast and efficient.<br></br>100% made in Go without any web frontend technologies to ensure an extremely smooth experience on every platform.</div>}
+        heading="Very Performant 🚀"
+        text={<div>Benri was designed to be fast and efficient<br></br>100% made in Go without any web frontend technologies to ensure an extremely smooth experience on every platform.</div>}
       />
       <Feature
         imgUrl={appUrl}
