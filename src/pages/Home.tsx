@@ -61,8 +61,8 @@ const Home = () => {
         imgUrl={appUrl}
         align="left"
         className="mt-10"
-        heading="03 Feature"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        heading=""
+        text=""
       />
     </section>
     <ScrollTopArrowDown />
