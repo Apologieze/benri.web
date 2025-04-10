@@ -46,14 +46,14 @@ const Home = () => {
         imgUrl={appUrl}
         align="left"
         heading="Integration with AniList"
-        text={<div>Seamlessly integrates with AniList.<br></br>✅Sync Your Watchlist, 📺Track Episodes,<br></br>🔎Search new anime and more.</div>}
+        text={<div>Seamlessly integrates with AniList.<br></br>✅ Sync Your Watchlist, 📺 Track Episodes,<br></br>🔎 Search new anime and more.</div>}
       />
       <Feature
         imgUrl={appUrl}
         align="right"
         className="mt-10"
-        heading="02 Feature"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        heading="Very Performant"
+        text={<div>Benri was designed to be fast and efficient.<br></br>100% made in Go without any web frontend technologies to ensure an extremely smooth experience on every platform.</div>}
       />
       <Feature
         imgUrl={appUrl}
