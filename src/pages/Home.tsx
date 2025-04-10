@@ -2,6 +2,7 @@ import Logo from "@components/Logo"
 import { Link } from "react-router-dom"
 import girlUrl from "@assets/girlie2.jpg"
 import appUrl from "@assets/app2.jpg"
+import intergration from "@assets/integration.jpg"
 import speedBenri from "@assets/speedBenri.png"
 import { Download } from "@components/icons"
 import Feature from "@components/Feature"
@@ -27,7 +28,7 @@ const Home = () => {
         <img src={girlUrl} className="" alt="" />
       </div>
     </section>
-    <section className="mx-auto mt-16 md:max-w-[920px] lg:max-w-screen-pc-block">
+    <section className="mx-auto mt-16 md:max-w-[920px] lg:max-w-[1000px]">
       <div className="mx-3 overflow-hidden rounded-lg bg-gradient-to-bl from-primary to-secondary sm:mx-7 md:mx-5">
         <div className="relative mx-3 mb-0 mt-3 rounded-md sm:mx-6 sm:mt-6">
           <img
@@ -44,7 +45,7 @@ const Home = () => {
     </section>
     <section className="mx-auto mt-28 flex max-w-screen-pc flex-col">
       <Feature
-        imgUrl={appUrl}
+        imgUrl={intergration}
         align="left"
         heading="Integration with AniList"
         text={<div>Seamlessly integrates with AniList.<br></br>✅ Sync Your Watchlist, 📺 Track Episodes,<br></br>🔎 Search new anime and more.</div>}
